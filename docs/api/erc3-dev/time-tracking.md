@@ -1,6 +1,6 @@
 # Time Tracking
 
-**Base URL Pattern**: `{base_url}/erc3/{task_id}`
+**Base URL Pattern**: `{base_url}/erc3-dev/{task_id}`
 
 These endpoints manage time entries and aggregate summaries for the ERC3-Dev benchmark.
 

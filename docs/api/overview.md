@@ -31,4 +31,4 @@ The ERC3 REST API provides endpoints for benchmark evaluation management, task e
 - **Core API**: `{base_url}/{endpoint}`
 - **Store API**: `{base_url}/store/{task_id}/{endpoint}`
 - **Demo API**: `{base_url}/demo/{task_id}/{endpoint}`
-- **ERC3-Dev API**: `{base_url}/erc3/{task_id}/{endpoint}`
+- **ERC3-Dev API**: `{base_url}/erc3-dev/{task_id}/{endpoint}`

@@ -2,12 +2,12 @@
 
 ```bash
 ## Check current user identity
-curl -X POST "https://erc.timetoact-group.at/erc3/task-789/whoami" \
+curl -X POST "https://erc.timetoact-group.at/erc3-dev/task-789/whoami" \
   -H "Content-Type: application/json" \
   -d '{"tool": "/whoami"}'
 
 ## Search for employees with Python skills
-curl -X POST "https://erc.timetoact-group.at/erc3/task-789/employees/search" \
+curl -X POST "https://erc.timetoact-group.at/erc3-dev/task-789/employees/search" \
   -H "Content-Type: application/json" \
   -d '{
     "tool": "/employees/search",
@@ -25,7 +25,7 @@ curl -X POST "https://erc.timetoact-group.at/erc3/task-789/employees/search" \
   }'
 
 ## Get employee details
-curl -X POST "https://erc.timetoact-group.at/erc3/task-789/employees/get" \
+curl -X POST "https://erc.timetoact-group.at/erc3-dev/task-789/employees/get" \
   -H "Content-Type: application/json" \
   -d '{
     "tool": "/employees/get",
@@ -33,7 +33,7 @@ curl -X POST "https://erc.timetoact-group.at/erc3/task-789/employees/get" \
   }'
 
 ## Update employee salary
-curl -X POST "https://erc.timetoact-group.at/erc3/task-789/employees/update" \
+curl -X POST "https://erc.timetoact-group.at/erc3-dev/task-789/employees/update" \
   -H "Content-Type: application/json" \
   -d '{
     "tool": "/employees/update",
@@ -42,7 +42,7 @@ curl -X POST "https://erc.timetoact-group.at/erc3/task-789/employees/update" \
   }'
 
 ## Search wiki articles
-curl -X POST "https://erc.timetoact-group.at/erc3/task-789/wiki/search" \
+curl -X POST "https://erc.timetoact-group.at/erc3-dev/task-789/wiki/search" \
   -H "Content-Type: application/json" \
   -d '{
     "tool": "/wiki/search",
@@ -50,7 +50,7 @@ curl -X POST "https://erc.timetoact-group.at/erc3/task-789/wiki/search" \
   }'
 
 ## Load wiki article
-curl -X POST "https://erc.timetoact-group.at/erc3/task-789/wiki/load" \
+curl -X POST "https://erc.timetoact-group.at/erc3-dev/task-789/wiki/load" \
   -H "Content-Type: application/json" \
   -d '{
     "tool": "/wiki/load",
@@ -58,7 +58,7 @@ curl -X POST "https://erc.timetoact-group.at/erc3/task-789/wiki/load" \
   }'
 
 ## Update wiki article
-curl -X POST "https://erc.timetoact-group.at/erc3/task-789/wiki/update" \
+curl -X POST "https://erc.timetoact-group.at/erc3-dev/task-789/wiki/update" \
   -H "Content-Type: application/json" \
   -d '{
     "tool": "/wiki/update",
@@ -67,7 +67,7 @@ curl -X POST "https://erc.timetoact-group.at/erc3/task-789/wiki/update" \
   }'
 
 ## Search customers
-curl -X POST "https://erc.timetoact-group.at/erc3/task-789/customers/search" \
+curl -X POST "https://erc.timetoact-group.at/erc3-dev/task-789/customers/search" \
   -H "Content-Type: application/json" \
   -d '{
     "tool": "/customers/search",
@@ -78,7 +78,7 @@ curl -X POST "https://erc.timetoact-group.at/erc3/task-789/customers/search" \
   }'
 
 ## Get project details
-curl -X POST "https://erc.timetoact-group.at/erc3/task-789/projects/get" \
+curl -X POST "https://erc.timetoact-group.at/erc3-dev/task-789/projects/get" \
   -H "Content-Type: application/json" \
   -d '{
     "tool": "/projects/get",
@@ -86,7 +86,7 @@ curl -X POST "https://erc.timetoact-group.at/erc3/task-789/projects/get" \
   }'
 
 ## Update project team
-curl -X POST "https://erc.timetoact-group.at/erc3/task-789/projects/team/update" \
+curl -X POST "https://erc.timetoact-group.at/erc3-dev/task-789/projects/team/update" \
   -H "Content-Type: application/json" \
   -d '{
     "tool": "/projects/team/update",
@@ -106,7 +106,7 @@ curl -X POST "https://erc.timetoact-group.at/erc3/task-789/projects/team/update"
   }'
 
 ## Submit agent response
-curl -X POST "https://erc.timetoact-group.at/erc3/task-789/respond" \
+curl -X POST "https://erc.timetoact-group.at/erc3-dev/task-789/respond" \
   -H "Content-Type: application/json" \
   -d '{
     "tool": "/respond",

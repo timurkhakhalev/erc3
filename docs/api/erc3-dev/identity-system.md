@@ -1,6 +1,6 @@
 # Identity & System
 
-**Base URL Pattern**: `{base_url}/erc3/{task_id}`
+**Base URL Pattern**: `{base_url}/erc3-dev/{task_id}`
 
 Endpoints in this section are part of the ERC3-Dev API used by the benchmark.
 

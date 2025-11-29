@@ -1,6 +1,6 @@
 # Agent Communication
 
-**Base URL Pattern**: `{base_url}/erc3/{task_id}`
+**Base URL Pattern**: `{base_url}/erc3-dev/{task_id}`
 
 Part of the ERC3-Dev API used by the benchmark.
 

@@ -1,6 +1,6 @@
 # ERC3-Dev API Endpoints
 
-**Base URL Pattern**: `{base_url}/erc3/{task_id}`
+**Base URL Pattern**: `{base_url}/erc3-dev/{task_id}`
 
 The ERC3-Dev API is used by the ERC3 benchmark tasks. Endpoints are grouped by domain; see the linked documents for request/response details.
 
