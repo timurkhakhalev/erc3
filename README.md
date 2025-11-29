@@ -2,6 +2,8 @@
 
 REST API documentation for the ERC3 benchmark evaluation platform.
 
+> **Version**: Derived from erc3 Python package v1.0.7
+
 ## Documentation
 
 - [API Overview](docs/api/overview.md) - Base URL, authentication, request/response patterns
@@ -23,3 +25,5 @@ curl -X POST https://erc.timetoact-group.at/start_session \
 ```
 
 See [full documentation](docs/api/index.md) for details.
+
+Author – [Тимур Хахалев про AI Coding](https://t.me/the_ai_architect)
